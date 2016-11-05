@@ -1,22 +1,6 @@
 ﻿# Primality tests
 
-Implementations of various algorithms for finding prime numbers by somehow factorising candidates.
-___
-
- 
-Wrote these to make myself learn threading and to demonstrate the sheer exponential improvement of learning some basic algorithmics. 
-
-It's Java, which takes [an ungeneralisable amount](http://benchmarksgame.alioth.debian.org/u32/java.php) off the efficiency, but that's not the goal anyhow.
-
-I guess you could use these for benchmarking different processors, but I wouldn't.
-
-___
-
-### FEATURES TO ADD: 
-* Show the relevant pseudocode and formulae.
-* Real-time reporting of each's [Big-O](https://en.wikipedia.org/wiki/Big_O_notation) efficiency.
-* Visualisation of the first twenty iterations or so. Stepped clickthrough?
-* A unified GUI allowing switching between models. 
+Various algorithms for finding prime numbers.
 
 ___
 
@@ -30,6 +14,22 @@ Algorithms featured:
 6. Elliptic curve - 
 
 ___
+
+Wrote these to make myself learn threading and to demonstrate the sheer exponential improvement of learning some basic algorithmics. 
+
+It's Java, which takes [an ungeneralisable amount](http://benchmarksgame.alioth.debian.org/u32/java.php) off the efficiency, but absolute speed is not the present goal. I guess you could use these for benchmarking different processors, but I wouldn't.
+
+___
+
+### FEATURES TO ADD: 
+
+* Show user relevant pseudocode and formulae.
+* Real-time reporting of each's [Big-O](https://en.wikipedia.org/wiki/Big_O_notation) efficiency.
+* Visualisation of the first twenty iterations or so. Stepped clickthrough?
+* A unified GUI allowing switching between models. 
+
+___
+
 
 ##1. 'Trial division'. 
 
